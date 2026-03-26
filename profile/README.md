@@ -40,12 +40,12 @@
 | [**opcua-cli**](https://github.com/php-opcua/opcua-cli) | Command-line tool for interacting with OPC UA servers. Browse, read, write, watch values in real-time, discover endpoints, manage certificates, export address spaces, and generate PHP code from NodeSet2.xml files. | [![GitHub](https://img.shields.io/badge/GitHub-opcua--cli-blue)](https://github.com/php-opcua/opcua-cli) |
 | [**opcua-client-nodeset**](https://github.com/php-opcua/opcua-client-nodeset) | Pre-generated PHP types from 51 OPC Foundation companion specifications. 338 enums, 191 typed DTOs, 191 binary codecs covering DI, Robotics, MachineTool, BACnet, MTConnect, ISA-95, PackML, PROFINET, and more. | [![GitHub](https://img.shields.io/badge/GitHub-opcua--client--nodeset-blue)](https://github.com/php-opcua/opcua-client-nodeset) |
 | [**opcua-test-suite**](https://github.com/php-opcua/opcua-test-suite) | Docker-based OPC UA test infrastructure. 8 pre-configured servers covering all security policies, authentication methods, and ~270 test nodes. Includes a GitHub Action for CI integration. | [![GitHub](https://img.shields.io/badge/GitHub-opcua--test--suite-blue)](https://github.com/php-opcua/opcua-test-suite) |
+| [**opcua-session-manager**](https://github.com/php-opcua/opcua-session-manager) | ReactPHP daemon that keeps OPC UA sessions alive across PHP requests via Unix socket IPC. Eliminates the per-request connection overhead (~150ms &rarr; ~5ms). | [![GitHub](https://img.shields.io/badge/GitHub-opcua--session--manager-blue)](https://github.com/php-opcua/opcua-session-manager) |
 
-### Session Management & Framework Integrations
+### Framework Integrations
 
 | Package | Description | Status |
 |---------|-------------|--------|
-| [**opcua-session-manager**](https://github.com/php-opcua/opcua-session-manager) | ReactPHP daemon that keeps OPC UA sessions alive across PHP requests via Unix socket IPC. Eliminates the per-request connection overhead (~150ms &rarr; ~5ms). | In development |
 | [**laravel-opcua**](https://github.com/php-opcua/laravel-opcua) | Laravel service provider, facade, named connections, Artisan commands, and automatic PSR-3/PSR-16 injection. | In development |
 | **symfony-opcua** | Symfony bundle with equivalent integration for the Symfony ecosystem. | Planned |
 
