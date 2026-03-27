@@ -51,6 +51,10 @@
 
 ---
 
+> We are preparing in-depth tests with the '[OPC UA .NET Stack](https://github.com/opcfoundation/ua-.netstandard)'
+
+---
+
 ## Quick Start
 
 ### Installation
