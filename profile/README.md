@@ -34,24 +34,36 @@
 
 ### Core
 
-| Package | Description | |
-|---------|-------------|---|
-| [**opcua-client**](https://github.com/php-opcua/opcua-client) | The core OPC UA client library. Pure PHP binary protocol implementation with support for browse, read, write, method calls, subscriptions, history read, events, alarms, and type discovery. 6 security policies, 3 authentication modes, auto-retry, fluent builders, PSR-3/PSR-14/PSR-16 integration. | [![GitHub](https://img.shields.io/badge/GitHub-opcua--client-blue)](https://github.com/php-opcua/opcua-client) |
-| [**opcua-cli**](https://github.com/php-opcua/opcua-cli) | Command-line tool for interacting with OPC UA servers. Browse, read, write, watch values in real-time, discover endpoints, manage certificates, export address spaces, and generate PHP code from NodeSet2.xml files. | [![GitHub](https://img.shields.io/badge/GitHub-opcua--cli-blue)](https://github.com/php-opcua/opcua-cli) |
-| [**opcua-client-nodeset**](https://github.com/php-opcua/opcua-client-nodeset) | Pre-generated PHP types from 51 OPC Foundation companion specifications. 338 enums, 191 typed DTOs, 191 binary codecs covering DI, Robotics, MachineTool, BACnet, MTConnect, ISA-95, PackML, PROFINET, and more. | [![GitHub](https://img.shields.io/badge/GitHub-opcua--client--nodeset-blue)](https://github.com/php-opcua/opcua-client-nodeset) |
-| [**opcua-test-suite**](https://github.com/php-opcua/opcua-test-suite) | Docker-based OPC UA test infrastructure. 8 pre-configured servers covering all security policies, authentication methods, and ~270 test nodes. Includes a GitHub Action for CI integration. | [![GitHub](https://img.shields.io/badge/GitHub-opcua--test--suite-blue)](https://github.com/php-opcua/opcua-test-suite) |
-| [**opcua-session-manager**](https://github.com/php-opcua/opcua-session-manager) | ReactPHP daemon that keeps OPC UA sessions alive across PHP requests via Unix socket IPC. Eliminates the per-request connection overhead (~150ms &rarr; ~5ms). | [![GitHub](https://img.shields.io/badge/GitHub-opcua--session--manager-blue)](https://github.com/php-opcua/opcua-session-manager) |
+| Package&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description |
+|---------|-------------|
+| [**opcua-client**](https://github.com/php-opcua/opcua-client) | <div><p align="center"> <a href="https://github.com/php-opcua/opcua-client"><img src="https://img.shields.io/badge/GitHub-opcua--client-blue" alt="GitHub"></a> <a href="https://packagist.org/packages/php-opcua/opcua-client"><img src="https://img.shields.io/packagist/v/php-opcua/opcua-client?style=flat-square&label=packagist" alt="Latest Version"></a> <a href="https://github.com/php-opcua/opcua-client/actions/workflows/tests.yml"><img src="https://img.shields.io/github/actions/workflow/status/php-opcua/opcua-client/tests.yml?branch=master&label=tests&style=flat-square" alt="Tests"></a></p>The core OPC UA client library. Pure PHP binary protocol implementation with support for browse, read, write, method calls, subscriptions, history read, events, alarms, and type discovery. 6 security policies, 3 authentication modes, auto-retry, fluent builders, PSR-3/PSR-14/PSR-16 integration.</div> |
+| [**opcua-cli**](https://github.com/php-opcua/opcua-cli) | <div><p align="center"> <a href="https://github.com/php-opcua/opcua-cli"><img src="https://img.shields.io/badge/GitHub-opcua--cli-blue" alt="GitHub"></a> <a href="https://packagist.org/packages/php-opcua/opcua-cli"><img src="https://img.shields.io/packagist/v/php-opcua/opcua-cli?style=flat-square&label=packagist" alt="Latest Version"></a> <a href="https://github.com/php-opcua/opcua-cli/actions/workflows/tests.yml"><img src="https://img.shields.io/github/actions/workflow/status/php-opcua/opcua-cli/tests.yml?branch=master&label=tests&style=flat-square" alt="Tests"></a></p>Command-line tool for interacting with OPC UA servers. Browse, read, write, watch values in real-time, discover endpoints, manage certificates, export address spaces, and generate PHP code from NodeSet2.xml files.</div> |
+| [**opcua-session-manager**](https://github.com/php-opcua/opcua-session-manager) | <div><p align="center"> <a href="https://github.com/php-opcua/opcua-session-manager"><img src="https://img.shields.io/badge/GitHub-opcua--session--manager-blue" alt="GitHub"></a> <a href="https://packagist.org/packages/php-opcua/opcua-session-manager"><img src="https://img.shields.io/packagist/v/php-opcua/opcua-session-manager?style=flat-square&label=packagist" alt="Latest Version"></a> <a href="https://github.com/php-opcua/opcua-session-manager/actions/workflows/tests.yml"><img src="https://img.shields.io/github/actions/workflow/status/php-opcua/opcua-session-manager/tests.yml?branch=master&label=tests&style=flat-square" alt="Tests"></a></p>ReactPHP daemon that keeps OPC UA sessions alive across PHP requests via Unix socket IPC. Eliminates the per-request connection overhead (~150ms &rarr; ~5ms).</div> |
+| [**opcua-client-nodeset**](https://github.com/php-opcua/opcua-client-nodeset) | <div><p align="center"> <a href="https://github.com/php-opcua/opcua-client-nodeset"><img src="https://img.shields.io/badge/GitHub-opcua--client--nodeset-blue" alt="GitHub"></a> <a href="https://packagist.org/packages/php-opcua/opcua-client-nodeset"><img src="https://img.shields.io/packagist/v/php-opcua/opcua-client-nodeset?style=flat-square&label=packagist" alt="Latest Version"></a></p>Pre-generated PHP types from 51 OPC Foundation companion specifications. 338 enums, 191 typed DTOs, 191 binary codecs covering DI, Robotics, MachineTool, BACnet, MTConnect, ISA-95, PackML, PROFINET, and more.</div> |
+| [**uanetstandard-test-suite**](https://github.com/php-opcua/uanetstandard-test-suite) | <div><p align="center"> <a href="https://github.com/php-opcua/uanetstandard-test-suite"><img src="https://img.shields.io/badge/GitHub-uanetstandard--test--suite-blue" alt="GitHub"></a> <a href="https://github.com/php-opcua/uanetstandard-test-suite/releases"><img src="https://img.shields.io/github/v/release/php-opcua/uanetstandard-test-suite?label=version&color=6366F1" alt="Version"></a> <a href="https://github.com/php-opcua/uanetstandard-test-suite/pkgs/container/uanetstandard-test-suite"><img src="https://img.shields.io/badge/docker-ghcr.io-blue?logo=docker&logoColor=white" alt="Docker"></a> <a href="https://dotnet.microsoft.com/"><img src="https://img.shields.io/badge/.NET-8.0-512BD4?logoColor=white" alt="8.0"></a> <a href="https://github.com/OPCFoundation/UA-.NETStandard"><img src="https://img.shields.io/badge/OPC_UA-UA--NETStandard-4F46E5" alt="UA-.NETStandard"></a></p>Docker-based OPC UA test infrastructure built on the OPC Foundation's [UA-.NETStandard](https://github.com/OPCFoundation/UA-.NETStandard) reference implementation. 8 pre-configured servers covering all security policies, authentication methods, and ~270 test nodes. Includes a GitHub Action for CI integration.</div> |
 
 ### Framework Integrations
 
-| Package | Description | Status |
-|---------|-------------|--------|
-| [**laravel-opcua**](https://github.com/php-opcua/laravel-opcua) | Laravel service provider, facade, named connections, Artisan commands, and automatic PSR-3/PSR-16 injection. | In development |
-| **symfony-opcua** | Symfony bundle with equivalent integration for the Symfony ecosystem. | Planned |
+| Package&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description |
+|---------|-------------|
+| [**laravel-opcua**](https://github.com/php-opcua/laravel-opcua) | <div><p align="center"> <a href="https://github.com/php-opcua/laravel-opcua"><img src="https://img.shields.io/badge/GitHub-laravel--opcua-blue" alt="GitHub"></a> <a href="https://packagist.org/packages/php-opcua/laravel-opcua"><img src="https://img.shields.io/packagist/v/php-opcua/laravel-opcua?style=flat-square&label=packagist" alt="Latest Version"></a> <a href="https://github.com/php-opcua/laravel-opcua/actions/workflows/tests.yml"><img src="https://img.shields.io/github/actions/workflow/status/php-opcua/laravel-opcua/tests.yml?branch=master&label=tests&style=flat-square" alt="Tests"></a></p>Laravel integration with Facade, `.env`-based configuration, named connections (like `config/database.php`), Artisan command for the session manager daemon, and automatic PSR-3/PSR-14/PSR-16 injection. Transparent session persistence — daemon running → `ManagedClient`; not running → direct `Client`. Zero code changes between modes.</div> |
+| **symfony-opcua** | Symfony bundle with equivalent integration for the Symfony ecosystem. *In development.* |
 
 ---
 
-> We are preparing in-depth tests with the '[OPC UA .NET Stack](https://github.com/opcfoundation/ua-.netstandard)'
+<table>
+<tr>
+<td>
+
+### Tested against the OPC UA reference implementation
+
+All packages are integration-tested against **[UA-.NETStandard](https://github.com/OPCFoundation/UA-.NETStandard)** — the **reference implementation** maintained by the OPC Foundation, the organization that defines the OPC UA specification. This is the same stack used by major industrial vendors to certify their products.
+
+1800+ tests across the ecosystem run via [uanetstandard-test-suite](https://github.com/php-opcua/uanetstandard-test-suite) against 8 server instances covering every security policy, authentication method, data type, method call, subscription, event, alarm, and historical read defined by the spec.
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -221,7 +233,7 @@ $mode = $client->read('ns=2;s=OperationalMode')->getValue();
 
 ## Test Suite
 
-A Docker-based test infrastructure with 8 OPC UA servers for integration testing:
+A Docker-based test infrastructure built on the OPC Foundation's **[UA-.NETStandard](https://github.com/OPCFoundation/UA-.NETStandard)** reference implementation, with 8 OPC UA servers for integration testing:
 
 | Server | Port | Purpose |
 |--------|------|---------|
@@ -245,34 +257,41 @@ docker compose up -d
 ### GitHub Actions
 
 ```yaml
-- uses: php-opcua/opcua-test-suite@v1
-  with:
-    servers: 'no-security,userpass,certificate'
+- uses: php-opcua/uanetstandard-test-suite@v1.0.0
 ```
 
 ---
 
 ## Framework Integrations
 
-### Laravel (in development)
+### Laravel
 
 ```bash
 composer require php-opcua/laravel-opcua
 ```
 
+```dotenv
+OPCUA_ENDPOINT=opc.tcp://192.168.1.100:4840
+```
+
 ```php
-use PhpOpcua\Laravel\Facades\Opcua;
+use PhpOpcua\LaravelOpcua\Facades\Opcua;
 
 $client = Opcua::connect();
 $value = $client->read('i=2259');
+echo $value->getValue(); // 0 = Running
+$client->disconnect();
 ```
 
-- Named connections in `config/opcua.php` (like database connections)
-- Automatic PSR-3 logging and PSR-16 caching via Laravel's services
-- Artisan command to start the session manager daemon: `php artisan opcua:session`
-- Transparent session persistence when the daemon is running
+- **Named connections** in `config/opcua.php` (like `config/database.php`)
+- **Automatic PSR-3 logging, PSR-14 events, and PSR-16 caching** via Laravel's services
+- **Artisan command** to start the session manager daemon: `php artisan opcua:session`
+- **Transparent session persistence** — daemon running → `ManagedClient`; not running → direct `Client`. Zero code changes
+- **Trust store** — certificate trust management with configurable policies and auto-accept
+- **Write auto-detection** — omit the type parameter and let the client detect it automatically
+- **47 PSR-14 events** for full observability of OPC UA operations
 
-### Symfony (planned)
+### Symfony (in development)
 
 A Symfony bundle with equivalent DI integration is planned.
 
@@ -288,9 +307,13 @@ A Symfony bundle with equivalent DI integration is planned.
 - **Cross-platform** &mdash; Linux, macOS, Windows. PHP 8.2 through 8.5.
 - **Session persistence** &mdash; Optional ReactPHP daemon keeps connections alive across PHP requests (~150ms &rarr; ~5ms).
 - **51 companion specs** &mdash; Pre-generated types for DI, Robotics, MachineTool, BACnet, and more.
-- **Tested** &mdash; 1000+ tests, 8 Docker-based test servers, CI across PHP 8.2&ndash;8.5.
+- **Tested** &mdash; 1800+ tests across all packages, integration-tested against the OPC Foundation's UA-.NETStandard reference implementation, CI across PHP 8.2&ndash;8.5.
 
 ---
+
+## Versioning
+
+All packages in the php-opcua ecosystem follow the same version numbering as [`opcua-client`](https://github.com/php-opcua/opcua-client). Each release is aligned with the corresponding client library release to ensure full compatibility across the ecosystem.
 
 ## License
 
