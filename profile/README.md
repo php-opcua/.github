@@ -308,6 +308,7 @@ A Symfony bundle with equivalent DI integration is planned.
 - **Session persistence** &mdash; Optional ReactPHP daemon keeps connections alive across PHP requests (~150ms &rarr; ~5ms).
 - **51 companion specs** &mdash; Pre-generated types for DI, Robotics, MachineTool, BACnet, and more.
 - **Tested** &mdash; 1800+ tests across all packages, integration-tested against the OPC Foundation's UA-.NETStandard reference implementation, CI across PHP 8.2&ndash;8.5.
+- **AI-Ready** &mdash; Every package ships with `llms.txt`, `llms-full.txt`, and `llms-skills.md` &mdash; machine-readable documentation designed for AI coding assistants (Claude, Cursor, Copilot, ChatGPT). Feed them to your AI so it generates correct OPC UA code out of the box.
 
 ---
 
