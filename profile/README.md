@@ -12,7 +12,7 @@
   Pure PHP implementation of the OPC UA protocol stack.<br>
   Connect your PHP applications to PLCs, SCADA systems, sensors, historians, and IoT devices &mdash; no C/C++ extensions, no HTTP gateways, no middleware.
 </p>
-
+ 
 <p align="center">
   <a href="#packages">Packages</a> &bull;
   <a href="#quick-start">Quick Start</a> &bull;
@@ -80,7 +80,7 @@
 
 ### Tested against the OPC UA reference implementation
 
-All packages are integration-tested against **[UA-.NETStandard](https://github.com/OPCFoundation/UA-.NETStandard)** — the **reference implementation** maintained by the OPC Foundation, the organization that defines the OPC UA specification. This is the same stack used by major industrial vendors to certify their products.
+All packages are integration-tested against **[UA-.NETStandard](https://github.com/OPCFoundation/UA-.NETStandard)** — the **reference implementation** maintained by the OPC Foundation, the organization that defines the OPC UA specification.
 
 2900+ tests across the ecosystem run via [uanetstandard-test-suite](https://github.com/php-opcua/uanetstandard-test-suite) against 12 server instances covering every security policy (RSA + ECC), authentication method, data type, method call, subscription, event, alarm, historical read, the Security Key Service (Part 14), HTTPS Binary (Part 6 §7.4.4), and a PubSub UDP+UADP publisher. Unit tests run cross-OS (Linux, macOS, Windows) × PHP 8.2–8.5 on every push; integration tests run Linux-only (Docker-hosted OPC UA servers).
 
